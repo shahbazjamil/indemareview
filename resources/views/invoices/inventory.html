@@ -1,0 +1,458 @@
+<html>
+	<head>
+		<style>
+				@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+					.item-summary{
+						font-size: 10px
+					}
+					.body{
+						font-size: 12px;font-family: 'Lato', sans-serif;
+					}tr {
+			page-break-inside: avoid !important;
+			page-break-after: auto !important;
+			}
+
+			@media print { .tr {
+			page-break-inside: avoid !important;
+			-webkit-column-break-inside: avoid;
+			break-inside: avoid;
+			-webkit-region-break-inside: avoid;
+			}}
+		</style>
+	</head>
+	<body>
+		<table cellpadding="0" cellspacing="0" align="center" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;border-bottom:1px solid #000">
+			<tr>
+				<td>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td style="width:83%">
+								<h2>The Designers Concierge</h2>
+								<span style="display:block">20 Hawthorne Dr</span>
+								<span style="display:block">Brevard,North Carolina 28712</span>
+								<span style="display:block">828.620.1740</span>
+
+							</td>
+							<td style="width:17%;text-align:center">
+								<img src="{!! $invoiceSetting->logo_url !!}" alt="" style="max-width:100%" />
+							</td>
+						</tr>
+						<tr>
+							<td style="width:83%">
+							</td>
+							<td style="width:17%;text-align:center">07/13/2021</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-top:1px solid #000">
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%">
+						<tr>
+							<td valign="top">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%">
+									<tr>
+										<td valign="top">
+											<h3>VENDOR</h3>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">141 Fairgrove Church Rd SE</span>
+											<span style="display:block">Hickory, NC 28602</span>
+										</td>
+										<td valign="top">
+											<h3>SHIP TO</h3>
+											<span style="display:block">Yesterday's Tree</span>
+											<span style="display:block">780 Hendersonville Rd</span>
+											<span style="display:block">Asheville, NC</span>
+											<span style="display:block">28803</span>
+											<span style="display:block">Phone: 8282744296</span>
+										</td>
+									</tr>
+								</table>	
+							</td>
+							<td valign="top">
+								<h3>PURCHASE ORDER</h3>
+								PO-10042
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>	
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<th valign="top" align="left" style="border-bottom:1px solid #000;width:40%">
+								ITEM	
+							</th>
+							<th valign="top" style="border-bottom:1px solid #000;text-align:center">
+								QTY
+							</th>
+							<th valign="top" style="border-bottom:1px solid #000;text-align:center">
+								RATE
+							</th>
+							<th valign="top" style="border-bottom:1px solid #000;text-align:center">
+								TOTAL
+							</th>
+						</tr>
+						<tr>
+							<td valign="top">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed;padding:0">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Hoyt Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Katie Seaglass</span>
+											<span style="display:block">Finish: Willow</span>
+											<span style="display:block">Dimensions: L 28" D 35" H 38"</span>
+											<span style="display:block">SKU: 484</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,128.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,256.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt="" width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Cedric Sofa</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Matra Thunder</span>
+											<span style="display:block">Dimensions: L 84.5" D 36" H 36"</span>
+											<span style="display:block">SKU: 2542-84</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								1
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,713.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,713.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">						
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jules Sofa</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Magnus Hemp</span>
+											<span style="display:block">Contrast Throw Pillows in Faye Plum</span>
+											<span style="display:block">3" Skirt Band applied 2" up Banks Toffee</span>
+											<span style="display:block">Dimensions: L 92" D 40" H 37"</span>
+											<span style="display:block">SKU: 2544-92</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								1
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,180.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,180.00
+							</td>
+						</tr>
+					</table>
+					
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed;">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td valign="top" style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>	
+										<td style="width:75%;">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt="" width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr>
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr> 
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt=""  width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr> 
+					</table>
+					<table cellpadding="10" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+						<tr>
+							<td valign="top" style="width:40%">
+								<table cellpadding="0" cellspacing="0" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;table-layout:fixed">
+									<tr>
+										<td style="width:25%">
+											<img src="https://www.bitsarabia.com/wp-content/uploads/2021/07/logo.png" alt="" width="50" style="margin-right:20px"/>
+										</td>
+										<td style="width:75%">
+											<h3 style="margin:0 0 15px;">Jamestown Swivel Chair</h3>	
+											<span style="display:block">Sidemark: Inventory</span><br/>
+											<span style="display:block">Wesley Hall</span>
+											<span style="display:block">Materials: Riverway Pebble</span>
+											<span style="display:block">Finish: Otter</span>
+											<span style="display:block">Dimensions: L 31" D 39" H 36"</span>
+											<span style="display:block">SKU: 511</span>
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top" style="text-align:center">
+								2
+							</td>
+							<td valign="top" style="text-align:center">
+								$1,210.00
+							</td>
+							<td valign="top" style="text-align:center">
+								$2,420.00
+							</td>
+						</tr> 
+					</table>
+					<table cellpadding="0" cellspacing="0" align="center" style="font-family: 'Lato', sans-serif;font-size:12px;width:100%;">
+			<tr>
+				<td style="border-top:1px solid #000;border-bottom:1px solid #000">
+					<table cellpadding="10" cellspacing="0" width="250" align="right">
+						<tr>
+							<td align="right"><b>SUBTOTAL</b></td>
+							<td align="right">$11,799.00</td>
+						</tr>
+						<tr>
+							<td align="right"><b>TAXES</b></td>
+							<td align="right">$0.00</td>
+						</tr>
+						<tr style="font-size:18px">
+							<td align="right"><b>TOTAL</b></td>
+							<td align="right">$11,799.00</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
